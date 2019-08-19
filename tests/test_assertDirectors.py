@@ -1,10 +1,11 @@
 import pytest
-from AssertDirectors import AssertDirectors
+from ..AssertDirectors import AssertDirectors
+
 
 class TestAssertDirectors:
     def test_assert_directors(self):
-        movies = ["Non-Existing", "The Shawshank Redemption", "The Godfather"]#, "The Dark Knight", "Pulp Fiction", "Schindler's List",
-        # "The Lord of the Rings: The Return of the King", "The Good, The Bad, The Ugly", "12 Angry men", "Incpetion",
+        movies = [#"Non-Existing", "The Shawshank Redemption", "The Godfather", "The Dark Knight", "Pulp Fiction", "Schindler's List",
+        "The Lord of the Rings: The Return of the King", "The Good, The Bad, The Ugly", "12 Angry men"]#, "Incpetion",
         # "Forrrest Gump", "Star Wars: Episode V - The Empire Strikes Back", "Goodfellas", "The Matrix",
         # "One Flew Over the Cuckoo's Nest", "Seven Samurai", "Avengers: Infinity War", "Se7en"]
 
